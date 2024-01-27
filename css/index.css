@@ -1,0 +1,135 @@
+main{
+    height: 1500px;
+}
+.registr-card{
+    max-width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+}
+.registr-card-logo{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.registr-card-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: var(--primary-black);
+    font-size: 29px;
+    font-weight: 700;
+}
+.registr-card-desc{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.registr-card-desc span{
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.reg-top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fn-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    color: #444150;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#name{
+    padding: 20px;
+}
+
+#surname{
+    padding: 20px;
+}
+.ln-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    color: #444150;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bd-inp{
+    max-width: 440px;
+    height: 48px;
+    padding-top: 40px;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+    /* 150% */
+   
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+}
+.male-d {
+    display: flex;
+    padding: 20px 10px;
+    margin-top: 50px;
+    width: 200px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    background: var(--ffffff, #FFF);
+    align-items: center;
+    gap: 10px;
+}
+.male-d{
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+}
+.male {
+    width: 20px;
+    height: 20px;
+}
+.skype-d{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#skype{
+    padding: 10px;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.promo-d {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#promo {
+    padding: 10px;
+    color: #444150;
+    font-size: 16px;
+    font-weight: 600;
+}
